@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2002AEB41F45F12B00B916D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002AEB31F45F12B00B916D3 /* AppDelegate.swift */; };
+		2002AEB61F45F12B00B916D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002AEB51F45F12B00B916D3 /* ViewController.swift */; };
+		2002AEB81F45F12B00B916D3 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002AEB71F45F12B00B916D3 /* Document.swift */; };
+		2002AEBA1F45F12B00B916D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2002AEB91F45F12B00B916D3 /* Assets.xcassets */; };
+		2002AEBD1F45F12B00B916D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2002AEBB1F45F12B00B916D3 /* Main.storyboard */; };
+		2002AEC81F45F12C00B916D3 /* Art_G_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002AEC71F45F12C00B916D3 /* Art_G_ProTests.swift */; };
+		2002AED31F45F12C00B916D3 /* Art_G_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002AED21F45F12C00B916D3 /* Art_G_ProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2002AEC41F45F12B00B916D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2002AEA81F45F12B00B916D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2002AEAF1F45F12B00B916D3;
+			remoteInfo = "Art G Pro";
+		};
+		2002AECF1F45F12C00B916D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2002AEA81F45F12B00B916D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2002AEAF1F45F12B00B916D3;
+			remoteInfo = "Art G Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2002AEB01F45F12B00B916D3 /* Art G Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art G Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002AEB31F45F12B00B916D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2002AEB51F45F12B00B916D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2002AEB71F45F12B00B916D3 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2002AEB91F45F12B00B916D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2002AEBC1F45F12B00B916D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2002AEBE1F45F12B00B916D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2002AEC31F45F12B00B916D3 /* Art G ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art G ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002AEC71F45F12C00B916D3 /* Art_G_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_G_ProTests.swift; sourceTree = "<group>"; };
+		2002AEC91F45F12C00B916D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2002AECE1F45F12C00B916D3 /* Art G ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art G ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002AED21F45F12C00B916D3 /* Art_G_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_G_ProUITests.swift; sourceTree = "<group>"; };
+		2002AED41F45F12C00B916D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2002AEAD1F45F12B00B916D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2002AEC01F45F12B00B916D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2002AECB1F45F12C00B916D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2002AEA71F45F12B00B916D3 = {
+			isa = PBXGroup;
+			children = (
+				2002AEB21F45F12B00B916D3 /* Art G Pro */,
+				2002AEC61F45F12B00B916D3 /* Art G ProTests */,
+				2002AED11F45F12C00B916D3 /* Art G ProUITests */,
+				2002AEB11F45F12B00B916D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2002AEB11F45F12B00B916D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2002AEB01F45F12B00B916D3 /* Art G Pro.app */,
+				2002AEC31F45F12B00B916D3 /* Art G ProTests.xctest */,
+				2002AECE1F45F12C00B916D3 /* Art G ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2002AEB21F45F12B00B916D3 /* Art G Pro */ = {
+			isa = PBXGroup;
+			children = (
+				2002AEB31F45F12B00B916D3 /* AppDelegate.swift */,
+				2002AEB51F45F12B00B916D3 /* ViewController.swift */,
+				2002AEB71F45F12B00B916D3 /* Document.swift */,
+				2002AEB91F45F12B00B916D3 /* Assets.xcassets */,
+				2002AEBB1F45F12B00B916D3 /* Main.storyboard */,
+				2002AEBE1F45F12B00B916D3 /* Info.plist */,
+			);
+			path = "Art G Pro";
+			sourceTree = "<group>";
+		};
+		2002AEC61F45F12B00B916D3 /* Art G ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				2002AEC71F45F12C00B916D3 /* Art_G_ProTests.swift */,
+				2002AEC91F45F12C00B916D3 /* Info.plist */,
+			);
+			path = "Art G ProTests";
+			sourceTree = "<group>";
+		};
+		2002AED11F45F12C00B916D3 /* Art G ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2002AED21F45F12C00B916D3 /* Art_G_ProUITests.swift */,
+				2002AED41F45F12C00B916D3 /* Info.plist */,
+			);
+			path = "Art G ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2002AEAF1F45F12B00B916D3 /* Art G Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2002AED71F45F12C00B916D3 /* Build configuration list for PBXNativeTarget "Art G Pro" */;
+			buildPhases = (
+				2002AEAC1F45F12B00B916D3 /* Sources */,
+				2002AEAD1F45F12B00B916D3 /* Frameworks */,
+				2002AEAE1F45F12B00B916D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art G Pro";
+			productName = "Art G Pro";
+			productReference = 2002AEB01F45F12B00B916D3 /* Art G Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2002AEC21F45F12B00B916D3 /* Art G ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2002AEDA1F45F12C00B916D3 /* Build configuration list for PBXNativeTarget "Art G ProTests" */;
+			buildPhases = (
+				2002AEBF1F45F12B00B916D3 /* Sources */,
+				2002AEC01F45F12B00B916D3 /* Frameworks */,
+				2002AEC11F45F12B00B916D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2002AEC51F45F12B00B916D3 /* PBXTargetDependency */,
+			);
+			name = "Art G ProTests";
+			productName = "Art G ProTests";
+			productReference = 2002AEC31F45F12B00B916D3 /* Art G ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2002AECD1F45F12C00B916D3 /* Art G ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2002AEDD1F45F12C00B916D3 /* Build configuration list for PBXNativeTarget "Art G ProUITests" */;
+			buildPhases = (
+				2002AECA1F45F12C00B916D3 /* Sources */,
+				2002AECB1F45F12C00B916D3 /* Frameworks */,
+				2002AECC1F45F12C00B916D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2002AED01F45F12C00B916D3 /* PBXTargetDependency */,
+			);
+			name = "Art G ProUITests";
+			productName = "Art G ProUITests";
+			productReference = 2002AECE1F45F12C00B916D3 /* Art G ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2002AEA81F45F12B00B916D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Magic Install";
+				TargetAttributes = {
+					2002AEAF1F45F12B00B916D3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4NS83CCTAM;
+						ProvisioningStyle = Automatic;
+					};
+					2002AEC21F45F12B00B916D3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4NS83CCTAM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2002AEAF1F45F12B00B916D3;
+					};
+					2002AECD1F45F12C00B916D3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4NS83CCTAM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2002AEAF1F45F12B00B916D3;
+					};
+				};
+			};
+			buildConfigurationList = 2002AEAB1F45F12B00B916D3 /* Build configuration list for PBXProject "Art G Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2002AEA71F45F12B00B916D3;
+			productRefGroup = 2002AEB11F45F12B00B916D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2002AEAF1F45F12B00B916D3 /* Art G Pro */,
+				2002AEC21F45F12B00B916D3 /* Art G ProTests */,
+				2002AECD1F45F12C00B916D3 /* Art G ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2002AEAE1F45F12B00B916D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002AEBA1F45F12B00B916D3 /* Assets.xcassets in Resources */,
+				2002AEBD1F45F12B00B916D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2002AEC11F45F12B00B916D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2002AECC1F45F12C00B916D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2002AEAC1F45F12B00B916D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002AEB61F45F12B00B916D3 /* ViewController.swift in Sources */,
+				2002AEB41F45F12B00B916D3 /* AppDelegate.swift in Sources */,
+				2002AEB81F45F12B00B916D3 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2002AEBF1F45F12B00B916D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002AEC81F45F12C00B916D3 /* Art_G_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2002AECA1F45F12C00B916D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002AED31F45F12C00B916D3 /* Art_G_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2002AEC51F45F12B00B916D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2002AEAF1F45F12B00B916D3 /* Art G Pro */;
+			targetProxy = 2002AEC41F45F12B00B916D3 /* PBXContainerItemProxy */;
+		};
+		2002AED01F45F12C00B916D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2002AEAF1F45F12B00B916D3 /* Art G Pro */;
+			targetProxy = 2002AECF1F45F12C00B916D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2002AEBB1F45F12B00B916D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2002AEBC1F45F12B00B916D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2002AED51F45F12C00B916D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2002AED61F45F12C00B916D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2002AED81F45F12C00B916D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NS83CCTAM;
+				INFOPLIST_FILE = "Art G Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MagicInstall.Art-G-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2002AED91F45F12C00B916D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NS83CCTAM;
+				INFOPLIST_FILE = "Art G Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MagicInstall.Art-G-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2002AEDB1F45F12C00B916D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NS83CCTAM;
+				INFOPLIST_FILE = "Art G ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MagicInstall.Art-G-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art G Pro.app/Contents/MacOS/Art G Pro";
+			};
+			name = Debug;
+		};
+		2002AEDC1F45F12C00B916D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NS83CCTAM;
+				INFOPLIST_FILE = "Art G ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MagicInstall.Art-G-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art G Pro.app/Contents/MacOS/Art G Pro";
+			};
+			name = Release;
+		};
+		2002AEDE1F45F12C00B916D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NS83CCTAM;
+				INFOPLIST_FILE = "Art G ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MagicInstall.Art-G-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Art G Pro";
+			};
+			name = Debug;
+		};
+		2002AEDF1F45F12C00B916D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4NS83CCTAM;
+				INFOPLIST_FILE = "Art G ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MagicInstall.Art-G-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Art G Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2002AEAB1F45F12B00B916D3 /* Build configuration list for PBXProject "Art G Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2002AED51F45F12C00B916D3 /* Debug */,
+				2002AED61F45F12C00B916D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2002AED71F45F12C00B916D3 /* Build configuration list for PBXNativeTarget "Art G Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2002AED81F45F12C00B916D3 /* Debug */,
+				2002AED91F45F12C00B916D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2002AEDA1F45F12C00B916D3 /* Build configuration list for PBXNativeTarget "Art G ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2002AEDB1F45F12C00B916D3 /* Debug */,
+				2002AEDC1F45F12C00B916D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2002AEDD1F45F12C00B916D3 /* Build configuration list for PBXNativeTarget "Art G ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2002AEDE1F45F12C00B916D3 /* Debug */,
+				2002AEDF1F45F12C00B916D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2002AEA81F45F12B00B916D3 /* Project object */;
+}
